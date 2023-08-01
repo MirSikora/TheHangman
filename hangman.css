@@ -10,10 +10,13 @@
 body{
     width: 100vw;
     height: 100vh;
-    background-color: rgb(30, 195, 30);
+    background-color: skyblue;
     font-family:  'Luckiest Guy', cursive;
     font-size: 3rem;
     text-align: center;
+}
+header{
+    margin-top: 10px;
 }
 section{
     width: 80%;
@@ -31,11 +34,9 @@ img {
 a {
     background-color: black;
     border-radius: 10px;
-    padding: 3px 20px;
-    color:rgb(30, 195, 30);
-    font-size: 20px;
-    height: 28px;
-    width: 400px;
+    padding: 7px 20px;
+    color:skyblue;
+    font-size: 1.3rem;    
     cursor: pointer;
 }
 article{
