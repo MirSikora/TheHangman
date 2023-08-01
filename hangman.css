@@ -1,0 +1,86 @@
+@font-face {
+    font-family: Luckiest Guy;
+    src: url(LuckiestGuy.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(30, 195, 30);
+    font-family:  'Luckiest Guy', cursive;
+    font-size: 3rem;
+    text-align: center;
+}
+section{
+    width: 80%;
+    display: block;
+    margin:auto;
+}
+.gallows {
+    display: inline-flex;
+    justify-content: center;
+}
+img {
+    height: 40vh;
+    float: left;    
+}
+a {
+    background-color: black;
+    border-radius: 10px;
+    padding: 3px 20px;
+    color:rgb(30, 195, 30);
+    font-size: 20px;
+    height: 28px;
+    width: 400px;
+    cursor: pointer;
+}
+article{
+    display: flex;       
+    height: 130px;
+    width: 100%;
+    justify-content: center; 
+    align-items: center;  
+}
+hr{
+    width: 80%;
+    margin: 10px auto;
+}
+button{
+    padding: 0.7rem;
+    font-size: 2rem;
+    border-radius: 10px;
+    background-color: black;
+    color: white;        
+    border: none;
+    margin: 5px;
+    font-family: 'Luckiest Guy', cursive;
+}
+.hidden {
+    display: none;
+}
+p{    
+    height: 30px;
+    font-size: 2rem;      
+}
+@media (max-width:500px) {
+    body {
+        font-size: 2rem;        
+    }
+    img{
+        height: 30vh;
+    }
+    artickle{
+        height: 100px;
+    }
+    p {
+        height: 20px;
+        font-size: 1.3rem;
+    }
+    section {
+        width: 95%;
+    }
+}
