@@ -100,7 +100,6 @@ document.querySelector("a").addEventListener("click", () => {
   const selectedId = Math.floor(Math.random() * words.length);
   const word = Array.from(words[selectedId]);
 
-  console.log(word);
   var hiddenWord = [...word];
 
   let hidden = "";
@@ -165,7 +164,6 @@ document.querySelector("a").addEventListener("click", () => {
       }
       lifesCounter += life;
       gallows.src = `gallows${lifesCounter}.png`;
-      console.log(lifesCounter);
 
       for (let i = 0; i < word.length; i++) {
         hidden += hiddenWord[i];
